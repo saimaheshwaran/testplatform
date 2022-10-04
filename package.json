@@ -1,0 +1,30 @@
+{
+  "name": "testplatform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "cucumber-js ./features -r ./steps --parallel 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saimaheshwaran/testplatform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saimaheshwaran/testplatform/issues"
+  },
+  "homepage": "https://github.com/saimaheshwaran/testplatform#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "js-yaml": "^4.1.0",
+    "merge-yaml": "^1.1.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}

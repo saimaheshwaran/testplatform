@@ -1,0 +1,3 @@
+datalogin:
+  username: {xpath: 'idname', value: 256}
+  password: {xpath: 'idpassword', value: 'pwd123'}
