@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cucumber": "cucumber-js ./features -r ./steps --parallel 1"
+    "cucumber": "cucumber-js ./features -r ./steps --parallel 6"
   },
   "repository": {
     "type": "git",

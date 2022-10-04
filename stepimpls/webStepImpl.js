@@ -1,5 +1,5 @@
-const Driver = require ('../apps/web');
-const Objects = require('../apps/objects');
+const Driver = require ('../base/webapp');
+const Objects = require('../base/objects');
 
 var driver = new Driver();
 //var obj = new Objects();
