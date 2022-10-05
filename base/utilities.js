@@ -19,12 +19,12 @@ class Utilities {
             console.log("no dir ", startPath);
             return;
         }
-        var files = fs.readdirSync(startPath);
+        var files = await fs.readdirSync(startPath);
         for (var i = 0; i < files.length; i++) {
             var filename = path.join(startPath, files[i]);
             var stat = fs.lstatSync(filename);
             if (stat.isDirectory()) {
-                this.readAllFiles(filename, filter); //recurse
+                await this.readAllFiles(filename, filter); //recurse
             } else if (filename.endsWith(filter)) {
                 this.filenames.push(filename);
                 //console.log(this.filenames);

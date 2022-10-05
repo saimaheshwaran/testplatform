@@ -1,3 +1,6 @@
-datalogin:
+home:
   username: {xpath: 'idname', value: 256}
   password: {xpath: 'idpassword', value: 'pwd123'}
+  search: {name: 'btnK'}
+  nothanks: {xpath: '//*[@id="yDmH0d"]/c-wiz/div/div/c-wiz/div/div/div/div[2]/div[2]/button'}
+  searchbox: {name: 'q'}
