@@ -1,0 +1,7 @@
+{
+    "cucumber.features": [
+        "features/**/*.feature",
+        "tests/**/*.feature",
+        "*specs*/**/.feature"
+      ]
+}
