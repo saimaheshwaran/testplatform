@@ -1,7 +1,18 @@
 {
     "cucumber.features": [
+        "../features/**/*.feature",
+        "../features/*.feature",
+        "./features/**/*.feature",
+        "./features/*.feature",
         "features/**/*.feature",
-        "tests/**/*.feature",
-        "*specs*/**/.feature"
-      ]
+        "features/*.feature",
+    ],  
+    "cucumber.glue": [
+        "../steps/**/*.js",
+        "../steps/*.js",
+        "./steps/**/*.js",
+        "./steps/*.js",
+        "steps/**/*.js",
+        "steps/*.js"
+    ]
 }
