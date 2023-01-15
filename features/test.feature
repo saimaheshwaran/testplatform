@@ -55,3 +55,12 @@ Feature: Test Feature 1
     Then I enter 'hello' in 'home.searchbox' element
     Then I wait for 3 seconds
     Then I close the browser
+
+  Scenario: Test 7
+    Given I open 'chrome' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'hello' in 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
