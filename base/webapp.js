@@ -3,10 +3,9 @@ const {Builder, Browser, By, Key, WebElement} = require ('selenium-webdriver');
 class Driver {
 
     constructor() {
-    
     }
 
-    async initializeDriver (browser) {
+    async initializeDriver(browser) {
         this.driver = await new Builder()
         .forBrowser(browser)
         //.usingServer('http://localhost:4444/wd/hub')
