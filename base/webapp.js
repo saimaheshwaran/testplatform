@@ -40,7 +40,6 @@ class Driver {
     }
 
     async get() {
-
     }
 
     async quit() {
