@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7f244a2-f4cf-4e96-87d0-e86e2c9ea086" name="Changes" comment="default browser implemented">
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/data/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/data/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/app/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/base/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/app/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/base/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/app/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/base/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/browser/WindowScrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/ActionCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/ActionCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/JavaScriptChekBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/JavaScriptChekBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/SeleniumCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/checkbox/SeleniumCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/click/ActionClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/click/ActionClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/click/JavaScriptClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/click/JavaScriptClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/click/SeleniumClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/click/SeleniumClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/ActionDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/ActionDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/JavascritpDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/JavascritpDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/SeleniumDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/dropdown/SeleniumDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/getter/GetAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/getter/GetAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/getter/GetElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/getter/GetElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/mousehover/ActionMouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/mousehover/ActionMouseHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/mousehover/JavaScriptMouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/mousehover/JavaScriptMouseHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/ActionRadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/ActionRadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/JavaScriptRadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/JavaScriptRadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/SeleniumRadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/radiobutton/SeleniumRadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/ActionSendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/ActionSendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/JavaScriptSendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/JavaScriptSendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/SeleniumSendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/element/sendKey/SeleniumSendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/Assertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/AttributeValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/AttributeValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/CheckBoxValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/CheckBoxValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/DropdownValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/DropdownValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/EnablementValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/EnablementValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/PageValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/PageValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/PresenceValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/PresenceValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/RadioButtonValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/RadioButtonValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/web/validation/TextValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/web/validation/TextValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/common/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/common/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/BrowserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/BrowserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/ClickSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/ClickSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/GetSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/GetSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/InputSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/InputSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/NavigationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/NavigationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/SelectionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/SelectionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/ValidationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/ValidationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/definitions/web/WaitSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/definitions/web/WaitSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/executables/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/executables/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/executables/MonoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/executables/MonoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/general/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/general/features/test.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OOkUHr0iiMq2w6rEIue3bxRmjU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/saimaheshwaran/Documents/GitHub/testplatform/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="definitions.web" />
+      <recent name="core.web.element.getter" />
+      <recent name="core.web.browser" />
+      <recent name="core.web.window" />
+      <recent name="core.web.validation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.MultiRunner">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="3fb607b1-d6ce-45f5-b487-3f6b3240bc18" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Edge Test Steps" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/general/features/test.feature" />
+      <option name="GLUE" value="executables steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="testplatform" />
+      <option name="NAME_FILTER" value="^Edge Test Steps$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edge Test Steps$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edge Test Steps" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testplatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="executables" />
+      <option name="MAIN_CLASS_NAME" value="executables.MonoRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testplatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="executables" />
+      <option name="MAIN_CLASS_NAME" value="executables.MultiRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testplatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.remoteWebDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testplatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestCases" />
+      <option name="METHOD_NAME" value="remoteWebDriverTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MultiRunner" />
+        <item itemvalue="TestNG.MonoRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Edge Test Steps" />
+        <item itemvalue="TestNG.TestCases" />
+        <item itemvalue="TestNG.TestCases.remoteWebDriverTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7f244a2-f4cf-4e96-87d0-e86e2c9ea086" name="Changes" comment="" />
+      <created>1681439029776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681439029776</updated>
+      <workItem from="1681439030921" duration="751000" />
+      <workItem from="1681517930373" duration="228000" />
+      <workItem from="1681572294165" duration="13677000" />
+      <workItem from="1681586933879" duration="4907000" />
+      <workItem from="1681591864071" duration="5580000" />
+      <workItem from="1681622875917" duration="41019000" />
+      <workItem from="1681730195666" duration="19558000" />
+      <workItem from="1681836479871" duration="2635000" />
+      <workItem from="1681866712925" duration="86000" />
+      <workItem from="1681905280180" duration="3842000" />
+      <workItem from="1682098090018" duration="2466000" />
+      <workItem from="1682162418585" duration="5745000" />
+      <workItem from="1682170213797" duration="67301000" />
+      <workItem from="1682283564929" duration="460000" />
+      <workItem from="1682333686934" duration="7309000" />
+      <workItem from="1682425656190" duration="3938000" />
+    </task>
+    <task id="LOCAL-00001" summary="Main changed">
+      <created>1681439391065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681439391065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="web libraries are aded">
+      <created>1682197528635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682197528635</updated>
+    </task>
+    <task id="LOCAL-00003" summary="checkbox and Assertion added">
+      <created>1682246282535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682246282535</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Validation and BrowserUtilities added">
+      <created>1682253649674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682253649674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Step definitions are added">
+      <created>1682276599220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682276599220</updated>
+    </task>
+    <task id="LOCAL-00006" summary="default browser implemented">
+      <created>1682283306041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682283306041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main changed" />
+    <MESSAGE value="web libraries are aded" />
+    <MESSAGE value="checkbox and Assertion added" />
+    <MESSAGE value="Validation and BrowserUtilities added" />
+    <MESSAGE value="Step definitions are added" />
+    <MESSAGE value="default browser implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="default browser implemented" />
+  </component>
+</project>
