@@ -12,7 +12,7 @@ Feature: Test Feature 1
     Then I close the browser
 
   Scenario: Test 2
-    Given I open 'chrome' browser
+    Given I open 'firefox' browser
     When I navigate to 'http://www.google.com' page
     Then I wait for 3 seconds
     Then I click on 'home.searchbox' element
@@ -32,7 +32,7 @@ Feature: Test Feature 1
     Then I close the browser
 
   Scenario: Test 4
-    Given I open 'chrome' browser
+    Given I open 'firefox' browser
     When I navigate to 'http://www.google.com' page
     Then I wait for 3 seconds
     Then I click on 'home.searchbox' element
@@ -52,7 +52,7 @@ Feature: Test Feature 1
     Then I close the browser
 
   Scenario: Test 6
-    Given I open 'chrome' browser
+    Given I open 'firefox' browser
     When I navigate to 'http://www.google.com' page
     Then I wait for 3 seconds
     Then I click on 'home.searchbox' element
