@@ -1,6 +1,5 @@
 Feature: Test Feature 1
 
-@run
   Scenario: Test 1
     Given I open 'chrome' browser
     When I navigate to 'http://www.google.com' page
@@ -20,7 +19,7 @@ Feature: Test Feature 1
     Then I press 'enter' on 'home.searchbox' element
     Then I wait for 3 seconds
     Then I close the browser
-@run
+
   Scenario: Test 3
     Given I open 'chrome' browser
     When I navigate to 'http://www.google.com' page
