@@ -59,3 +59,63 @@ Feature: Test Feature 1
     Then I press 'enter' on 'home.searchbox' element
     Then I wait for 3 seconds
     Then I close the browser
+
+  Scenario: Test 7
+    Given I open 'chrome' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Sathya Sai' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
+
+  Scenario: Test 8
+    Given I open 'firefox' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Yogananda' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
+
+  Scenario: Test 9
+    Given I open 'chrome' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Yukteswar' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
+
+  Scenario: Test 10
+    Given I open 'firefox' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Krishna' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
+
+  Scenario: Test 11
+    Given I open 'chrome' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Rama' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser
+
+  Scenario: Test 12
+    Given I open 'firefox' browser
+    When I navigate to 'http://www.google.com' page
+    Then I wait for 3 seconds
+    Then I click on 'home.searchbox' element
+    Then I enter 'Flight risk' in 'home.searchbox' element
+    Then I press 'enter' on 'home.searchbox' element
+    Then I wait for 3 seconds
+    Then I close the browser

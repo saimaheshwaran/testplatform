@@ -1,5 +1,5 @@
 const { Given, Then, When } = require('@cucumber/cucumber');
-const StepImpl = require ('../stepimpls/webstepimpl');
+const StepImpl = require ('../stepimpls/webStepImpl');
 
 var steps = new StepImpl();
 
